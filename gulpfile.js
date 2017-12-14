@@ -43,7 +43,10 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function() {
 	return gulp.src([ 
 		'src/template/libs/jquery/dist/jquery.js',
-		'src/template/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js'
+		'src/template/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js',
+		'src/template/libs/fancybox/dist/jquery.fancybox.js',
+		'src/template/libs/jquery-ui/jquery-ui.js',
+		'src/template/libs/jquery-ui-timepicker/timepicker.js'
 		])
 		.pipe(concat('libs.js')) 
 		.pipe(gulp.dest('src/template/scripts')); 

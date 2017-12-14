@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="upload/favicon.png" type="image/png">
 	<link rel="stylesheet" href="template/styles/css/style.css" />
 	<link rel="stylesheet" href="template/styles/css/responsive.css" />
-	<script src="template/scripts/libs.min.js"></script>
+	<script src="template/scripts/libs.js"></script>
 	<script src="template/scripts/common.js"></script>
 	<!--[if lt IE 9]>
 	<script>
@@ -23,13 +23,38 @@
 </head>
 <body>
 	<header class="header">
-		
+		<div class="row">
+			<div class="header__logo col"><a href="index.html"><img src="upload/logo.png" alt=""></a></div>
+			<div class="header__nav col">
+				<ul>
+					<li class="selected"><a href="index.html">Welcome</a></li>
+					<li><a href="about.html">ABOUT OUR COMPANY</a></li>
+					<li><a href="cars.html">CARS FOR RENT</a></li>
+					<li><a href="contacts.html">COntact us</a></li>
+				</ul>
+			</div>
+			<div class="header__btn-nav">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
 	</header>
-	<main class="main">
-		
+	<main class="main main_main">
+		<div class="container">
+			<div class="main__text row center">
+				<div class="main__title col">make You<br>Dream<br>Come true</div>
+				<div class="main__desc col">Premium car rental service</div>
+			</div>
+			<a href="cars.html" class="main__button button button_red">VIEW all CARS</a>
+		</div>
 	</main>
 	<footer class="footer">
-		
+		<div class="container row_line">
+			<div class="footer__phone col_line">PHONE: <a href="tel:+4965199189930">+49 651 99 18 99 30</a></div>
+			<div class="footer__copy col_line">© 2018 RC-RENT ALL RIGHTS RESERVED</div>
+			<div class="footer__email col_line">E-MAIL: <a href="maito:INFO@RC-RENT.DE">INFO@RC-RENT.DE</a></div>
+		</div>
 	</footer>
 </body>
 </html>

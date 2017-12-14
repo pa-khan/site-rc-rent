@@ -1,3 +1,243 @@
-// @media screen and (max-width: 1199px)
-// 	.container
-// 		width: 950px
+@media screen and (max-height: 915px)
+	.about
+		// padding-top: 0
+
+@media screen and (max-height: 830px)
+	.car
+		padding-top: 1%
+		min-height: 620px
+	.main
+		&_car
+			padding-bottom: 40px
+			min-height: 1px
+			height: auto
+@media screen and (max-height: 800px)
+	.main_main
+		.main
+			&__text
+				padding-top: 10%
+			&__button
+				margin-top: 4%
+	.contacts
+		padding-top: 2%
+		&__title
+			margin-bottom: 30px
+@media screen and (max-height: 710px)
+	.about
+		padding-top: 5%
+	
+
+			
+@media screen and (max-height: 690px)
+	.main
+		padding-bottom: 40px
+		min-height: 1px
+		height: auto
+	.footer
+		position: relative
+	.main_main
+		.main
+			&__text
+				padding-top: 20px
+			&__button
+				margin-top: 30px
+	.footer
+		position: relative
+
+
+
+@media screen and (max-width: 1290px)
+	.container
+		width: 950px
+
+	.about
+		&__image
+			&:before
+				display: none
+
+		&__content
+			margin-top: 25px
+	
+		&__title, &__text, &__buttons
+			padding-left: 0
+
+		&__text
+			border: none
+			padding: 0
+
+	.car
+		&__content
+			width: 420px
+			padding-top: 0
+		&__text
+			br
+				display: none
+	.contacts
+		padding-bottom: 120px
+		&__data, &__map
+			width: 100%
+		&__content
+			width: 495px
+		&__form
+			margin-left: 55px
+		&__socials
+			margin-left: 20px
+@media screen and (max-width: 992px)
+	img
+		max-width: 100%
+	.header
+		top: 15px
+		&__logo
+			width: 250px
+	.main
+		padding-top: 80px
+	.container
+		width: 750px
+
+	html, body
+		// overflow-x: hidden
+	.header
+		position: absolute
+		&__logo
+			margin-left: 15px
+		&__nav
+			transition: .3s
+			transform: translateX(100%)
+			z-index: 9
+			float: none
+			position: fixed
+			margin-right: 0
+			top: 0
+			right: 0
+			width: 280px
+			height: 100%
+			background: #000
+			li
+				display: block
+				margin: 0
+				&.selected
+					a
+						&:after
+							background: #f00
+			a
+				display: block
+				&:before
+					display: none
+				&:after
+					width: 5px !important
+					height: 100%
+					left: 0
+					bottom: 0
+					background: transparent
+				&:hover
+					&:after
+						background: #f00
+			&_toggle
+				transform: translateX(0)
+
+		&__btn-nav
+			display: block
+
+	.car
+		&__content, &__images
+			float: none
+			width: 100%
+		&__images
+			margin-top: 20px
+		&__image
+			margin: 5px
+	.cars
+		&__item
+			width: 50%
+	.car
+		padding-bottom: 80px
+	.contacts
+		&__content
+			width: 100%
+		&__map
+			&-area
+				width: 100%
+		&__button
+			&_link
+				margin-left: auto
+		&__form
+			margin-top: 50px
+
+	.footer
+		&__copy
+			margin-left: 50px
+			margin-right: 50px
+
+
+@media screen and (max-width: 767px)
+	.container
+		width: 100%
+
+	.main_main
+		.main
+			&__text
+				width: 100%
+			&__title, &__desc
+				float: none
+				text-align: center
+				width: 100%
+			&__title
+				// font-size: 40px
+			&__desc
+				padding-top: 10px
+				margin-left: 0
+				// font-size: 40px
+			&__button
+				// margin-top: 22px
+
+	.about
+		&__content
+			width: 100%
+		&__text
+			margin-bottom: 20px
+	.cars
+		padding-top: 25px
+		&__nav
+			li
+				display: block
+			a
+				display: block
+				&:hover
+					&:after
+						// width: 100%
+	.car
+		padding-bottom: 140px
+	.footer
+		&__phone, &__copy, &__email
+			display: block
+		&__copy
+			margin: 3px 0
+
+@media screen and (max-width: 550px)
+	.cars
+		&__item
+			width: 100%
+
+@media screen and (max-width: 450px)
+	.about
+		&__button
+			margin-bottom: 16px
+			&:last-of-type
+				margin-bottom: 0
+	.contacts
+		&__form, &__socials
+			display: block
+			margin-left: 0
+		&__form
+			width: 100%
+		&__socials
+			padding-top: 35px
+			li
+				display: inline-block
+	.popup
+		width: 95%
+		padding: 30px
+@media screen and (max-width: 350px)
+	.header
+		&__logo
+			width: 220px

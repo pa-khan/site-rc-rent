@@ -1,0 +1,195 @@
+@media screen and (max-height: 830px) {
+  .car {
+    padding-top: 1%;
+    min-height: 620px; }
+  .main_car {
+    padding-bottom: 40px;
+    min-height: 1px;
+    height: auto; } }
+
+@media screen and (max-height: 800px) {
+  .main_main .main__text {
+    padding-top: 10%; }
+  .main_main .main__button {
+    margin-top: 4%; }
+  .contacts {
+    padding-top: 2%; }
+    .contacts__title {
+      margin-bottom: 30px; } }
+
+@media screen and (max-height: 710px) {
+  .about {
+    padding-top: 5%; } }
+
+@media screen and (max-height: 690px) {
+  .main {
+    padding-bottom: 40px;
+    min-height: 1px;
+    height: auto; }
+  .footer {
+    position: relative; }
+  .main_main .main__text {
+    padding-top: 20px; }
+  .main_main .main__button {
+    margin-top: 30px; }
+  .footer {
+    position: relative; } }
+
+@media screen and (max-width: 1290px) {
+  .container {
+    width: 950px; }
+  .about__image:before {
+    display: none; }
+  .about__content {
+    margin-top: 25px; }
+  .about__title, .about__text, .about__buttons {
+    padding-left: 0; }
+  .about__text {
+    border: none;
+    padding: 0; }
+  .car__content {
+    width: 420px;
+    padding-top: 0; }
+  .car__text br {
+    display: none; }
+  .contacts {
+    padding-bottom: 120px; }
+    .contacts__data, .contacts__map {
+      width: 100%; }
+    .contacts__content {
+      width: 495px; }
+    .contacts__form {
+      margin-left: 55px; }
+    .contacts__socials {
+      margin-left: 20px; } }
+
+@media screen and (max-width: 992px) {
+  img {
+    max-width: 100%; }
+  .header {
+    top: 15px; }
+    .header__logo {
+      width: 250px; }
+  .main {
+    padding-top: 80px; }
+  .container {
+    width: 750px; }
+  .header {
+    position: absolute; }
+    .header__logo {
+      margin-left: 15px; }
+    .header__nav {
+      -webkit-transition: .3s;
+      transition: .3s;
+      -webkit-transform: translateX(100%);
+          -ms-transform: translateX(100%);
+              transform: translateX(100%);
+      z-index: 9;
+      float: none;
+      position: fixed;
+      margin-right: 0;
+      top: 0;
+      right: 0;
+      width: 280px;
+      height: 100%;
+      background: #000; }
+      .header__nav li {
+        display: block;
+        margin: 0; }
+        .header__nav li.selected a:after {
+          background: #f00; }
+      .header__nav a {
+        display: block; }
+        .header__nav a:before {
+          display: none; }
+        .header__nav a:after {
+          width: 5px !important;
+          height: 100%;
+          left: 0;
+          bottom: 0;
+          background: transparent; }
+        .header__nav a:hover:after {
+          background: #f00; }
+      .header__nav_toggle {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0); }
+    .header__btn-nav {
+      display: block; }
+  .car__content, .car__images {
+    float: none;
+    width: 100%; }
+  .car__images {
+    margin-top: 20px; }
+  .car__image {
+    margin: 5px; }
+  .cars__item {
+    width: 50%; }
+  .car {
+    padding-bottom: 80px; }
+  .contacts__content {
+    width: 100%; }
+  .contacts__map-area {
+    width: 100%; }
+  .contacts__button_link {
+    margin-left: auto; }
+  .contacts__form {
+    margin-top: 50px; }
+  .footer__copy {
+    margin-left: 50px;
+    margin-right: 50px; } }
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%; }
+  .main_main .main__text {
+    width: 100%; }
+  .main_main .main__title, .main_main .main__desc {
+    float: none;
+    text-align: center;
+    width: 100%; }
+  .main_main .main__desc {
+    padding-top: 10px;
+    margin-left: 0; }
+  .about__content {
+    width: 100%; }
+  .about__text {
+    margin-bottom: 20px; }
+  .cars {
+    padding-top: 25px; }
+    .cars__nav li {
+      display: block; }
+    .cars__nav a {
+      display: block; }
+  .car {
+    padding-bottom: 140px; }
+  .footer__phone, .footer__copy, .footer__email {
+    display: block; }
+  .footer__copy {
+    margin: 3px 0; } }
+
+@media screen and (max-width: 550px) {
+  .cars__item {
+    width: 100%; } }
+
+@media screen and (max-width: 450px) {
+  .about__button {
+    margin-bottom: 16px; }
+    .about__button:last-of-type {
+      margin-bottom: 0; }
+  .contacts__form, .contacts__socials {
+    display: block;
+    margin-left: 0; }
+  .contacts__form {
+    width: 100%; }
+  .contacts__socials {
+    padding-top: 35px; }
+    .contacts__socials li {
+      display: inline-block; }
+  .popup {
+    width: 95%;
+    padding: 30px; } }
+
+@media screen and (max-width: 350px) {
+  .header__logo {
+    width: 220px; } }

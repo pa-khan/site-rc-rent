@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="shortcut icon" href="upload/favicon.png" type="image/png">
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="row">
+			<div class="header__logo col"><a href="index.html"><img src="upload/logo.png" alt=""></a></div>
+			<div class="header__nav col">
+				<ul>
+					<li><a href="index.html">Welcome</a></li>
+					<li><a href="about.html">ABOUT OUR COMPANY</a></li>
+					<li class="selected"><a href="cars.html">CARS FOR RENT</a></li>
+					<li><a href="contacts.html">COntact us</a></li>
+				</ul>
+			</div>
+			<div class="header__btn-nav">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<main class="main main_cars">
+		<div class="container">
+			<div class="cars">
+				<div class="cars__title title">CARS FOR RENT</div>
+				<div class="cars__catalog">
+					<div class="cars__nav">
+						<ul>
+							<li class="selected"><a href="#all">ALL CARS</a></li>
+							<li><a href="#suvs">SUV’S</a></li>
+							<li><a href="#sport">SPORT CARS</a></li>
+							<li><a href="#business">business class</a></li>
+						</ul>
+					</div>
+					<div class="cars__list row_line">
+						<div class="cars__item col_line" data-car-type="suvs">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item col_line" data-car-type="sport">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item col_line" data-car-type="business">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item col_line" data-car-type="suvs">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item col_line" data-car-type="sport">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item col_line" data-car-type="business">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item cars__item_hidden col_line" data-car-type="sport">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item cars__item_hidden col_line" data-car-type="sport">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+						<div class="cars__item cars__item_hidden col_line" data-car-type="business">
+							<div class="cars__img"><img src="upload/car.png" alt=""></div>
+							<div class="cars__link"><a href="car.html">MERCEDES-AMG S 63 4matic+</a></div>
+						</div>
+					</div>
+					<div class="cars__button button button_flat">LOAD MORE</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container row_line">
+			<div class="footer__phone col_line">PHONE: <a href="tel:+4965199189930">+49 651 99 18 99 30</a></div>
+			<div class="footer__copy col_line">© 2018 RC-RENT ALL RIGHTS RESERVED</div>
+			<div class="footer__email col_line">E-MAIL: <a href="maito:INFO@RC-RENT.DE">INFO@RC-RENT.DE</a></div>
+		</div>
+	</footer>
+</body>
+</html>
